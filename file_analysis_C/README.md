@@ -11,7 +11,7 @@ It hold movies in two dynamic arrays called Budget. Its nodes are named Budget a
 Budget contain five components; The arrays name , title, titletype and top250 are stored as strings, while budget and year are stored as integers.
 
 
-``` shell
+``` C
 struct budget {
     int budget; 
     int year;
