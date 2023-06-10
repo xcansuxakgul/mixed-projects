@@ -55,11 +55,12 @@ The program contain a menu like the one below. The program  terminate if and onl
 
 ### Running this program
 <a name="run">
+    first we should compile main.c
 
 ``` shell
 gcc -o project-name main.c
 ```
-    
+    then we pass movie.txt as an argument.
 ``` shell
 ./project-name movie.txt
 
