@@ -10,7 +10,7 @@ The program provides the following options:
 It hold movies in two dynamic arrays called Budget. Its nodes are named Budget and Name.
 Budget contain five components; The arrays name , title, titletype and top250 are stored as strings, while budget and year are stored as integers.
 
-'''
+''' C
 struct budget {
     int budget; 
     int year;
@@ -22,7 +22,7 @@ struct budget {
 
 Name contain seven fields; type and directors are stored as string arrays (note here: this can contain multiple strings and is separated by commas), title, mustsee and url are stored as strings, while score and rating are stored as decimals.
 
-'''
+''' C
 struct Name {
     char **genre; 
     char *title;
@@ -51,11 +51,11 @@ The program contain a menu like the one below. The program  terminate if and onl
 
 ### Running this program
 <a name="run">
-'''
+''' shell
 gcc -o project-name main.c
 '''
 
-'''
+''' shell
 ./project-name movie.txt
 '''
 </a>
