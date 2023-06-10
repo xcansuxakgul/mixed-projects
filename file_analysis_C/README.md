@@ -2,7 +2,7 @@
 
 This code provides various options to interact with and display the movie data.The program takes the name of the file to be read as a single argument. An example file (movie.txt) is attached. The program reads this file with labeled columns separated by a semicolon (;). Each line contains information about a movie (separated by semicolons).The program read this text file and parse the given information (separated by semicolons).
 
-You can run this code with like [here](#installation).
+You can run this code with like [here](#run).
 
 
 The program provides the following options:
@@ -50,7 +50,7 @@ The program contain a menu like the one below. The program  terminate if and onl
 8. Exit
 
 ### Running this program
-<a name="installation">
+<a name="run">
 '''
 gcc -o project-name main.c
 '''
